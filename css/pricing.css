@@ -1,0 +1,108 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #34a853;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-control:focus {
+  border-color: #34a853;
+  box-shadow: 0 0 0 0.2rem rgba(52, 168, 83, 0.25);
+}
+
+.container {
+  margin-top: 3rem;
+  max-width: 960px;
+  background-color: #ffffff; 
+  color: #2e7d32;
+}
+
+.pricing-header {
+  max-width: 700px;
+  background-color: #34a853;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+.pricing-header h1 {
+  font-size: 2.5rem;
+}
+
+.pricing-header p {
+  font-size: 1.25rem;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  border: 1px solid #34a853;
+}
+
+.card-header {
+  background-color: #34a853;
+  color: white;
+}
+
+.card-body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.card-title {
+  color: #34a853;
+}
+
+.btn-outline-primary {
+  color: #34a853;
+  border-color: #34a853;
+}
+
+.btn-outline-primary:hover {
+  background-color: #34a853;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #34a853;
+  border-color: #34a853;
+}
+
+.btn-primary:hover {
+  background-color: #2c8e43;
+  border-color: #2c8e43;
+}
+
+.table thead th {
+  border-bottom: 2px solid #34a853;
+}
+
+.table tbody tr td {
+  border-top: 1px solid #34a853;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  border-top: 1px solid #34a853;
+}
+
+footer a {
+  color: #34a853;
+}
+
+footer a:hover {
+  color: #2c8e43;
+}
